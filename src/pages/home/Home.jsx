@@ -15,13 +15,13 @@ const Home = () => {
         </p>
 
         <div className="flex justify-center lg:justify-start space-x-4 mt-6 sm:mt-8">
-          <Button text="Show Store" className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-200 ease-in-out transform hover:scale-105" />
+          <Button text="Services" className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-200 ease-in-out transform hover:scale-105" />
           <Button text="Explore" className="bg-gray-300 hover:bg-gray-500 text-gray-800 font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-200 ease-in-out transform hover:scale-105" />
         </div>
       </div>
 
       <div className="child-two flex-1 flex justify-center items-center lg:justify-end">
-        <img src={HomeImg} alt="Home furniture" className="w-full max-w-sm sm:max-w-md lg:max-w-lg transform hover:scale-105 transition duration-300 ease-in-out" />
+        <img src={HomeImg} alt="Home medical_img" className="w-full max-w-sm sm:max-w-md lg:max-w-lg transform hover:scale-105 transition duration-300 ease-in-out" />
       </div>
     </div>
   );
